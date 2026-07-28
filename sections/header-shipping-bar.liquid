@@ -1,13 +1,13 @@
 <div class="header-shopping-bar">
   <div class="container">
     New header section
-    {{ sections.settings.shipping-text }}
+    {{ section.settings.shipping-text }}
   </div>
 </div>
 
 <style>
   .header-shipping-bar {
-    background-color: {{ section.settings.background_color }};
+    background-color: {{ section.settings.bg_color }};
   }
 </style>
 
@@ -22,9 +22,9 @@
         },
         {
       "type": "color",
-      "id": "background_color",
+      "id": "bg-color",
       "label": "Hintergrundfarbe",
-      "default": "#000000"
+      "default": "#00ff00"
         }
     ]
 }
