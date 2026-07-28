@@ -1,0 +1,8 @@
+.container{
+    max-width: 1280px;
+    width: 100%;
+    position: relative;
+    margin-line: auto;
+    padding-inline: 1em;
+
+}
