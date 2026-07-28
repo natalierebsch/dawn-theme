@@ -1,5 +1,20 @@
 <div class=""header-shopping-bar">
   <div class="container">
     New header section
+    {{ section.settings.shipping-text }}
   </div>
 </div>
+
+{% schema %}
+{
+    "name": "Shipping Bar",
+    "settings": [
+        {"type": "text",
+        "id": "shipping-text",
+        "label": "title",
+        "default": "Free Shipping"
+
+        }
+    ]
+}
+{% endschema %}
